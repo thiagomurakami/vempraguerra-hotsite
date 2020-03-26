@@ -14,7 +14,7 @@ const Facebook = () => {
       }
     }
   `)
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img alt="facebook" fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Facebook

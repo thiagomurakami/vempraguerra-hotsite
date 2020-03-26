@@ -14,7 +14,7 @@ const Instagram = () => {
       }
     }
   `)
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img alt="instagram" fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Instagram

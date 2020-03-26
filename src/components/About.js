@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const About = () => (
   <section id="about">
@@ -11,12 +11,14 @@ const About = () => (
         para enfrentar a ameaça do Novo Coronavírus.
       </p>
       <p>
-        Desse cenário, nasceu o projeto <b>#VemPraGuerra</b>, que uniu médicos e
-        profissionais de diversas áreas (financeira, jurídica, marketing) por
-        meio de trabalho voluntário, com o intuito de arrecadar fundos para
-        compra de materiais hospitalares essenciais dessa nova demanda.
+        Desse cenário, nasceu o movimento <b>#VemPraGuerra</b>, que uniu médicos
+        e profissionais de diversas áreas (excluir o parênteses com as áreas),
+        por meio de trabalho voluntário. Nosso objetivo é convocar a sociedade
+        civil para participar da batalha contra o novo coronavírus através da
+        arrecadação de fundos para a compra de materiais hospitalares essenciais
+        dessa nova demanda.
       </p>
-      <h2>META DO PROJETO</h2>
+      <h2>META</h2>
       <p>
         A nossa meta é atingir 10 milhões de reais que serão destinados
         totalitariamente para a compra de:
@@ -38,10 +40,15 @@ const About = () => (
         aos que estarão na linha de frente!
       </p>
     </div>
-    <div style={{textAlign: 'center'}}>
+    <div style={{ textAlign: 'center' }}>
       <iframe
         src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F105616944418128%2Fvideos%2F2471836366251797%2F&show_text=0&width=560"
-        style={{ border: "none", overflow: "hidden", maxWidth: "90%", margin: '0 auto' }}
+        style={{
+          border: 'none',
+          overflow: 'hidden',
+          maxWidth: '90%',
+          margin: '0 auto',
+        }}
         scrolling="no"
         frameBorder="0"
         allowtransparency="true"
