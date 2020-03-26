@@ -69,13 +69,17 @@ const faq = [
     question: 'Existe a opção de doar materiais e medicamentos diretamente?',
     answer: (
       <>
-        <div>Sim! É possível doar materiais e medicamentos diretamente ao Hospital
-        das Clínicas através da comunicação pelo email oficial: {' '}
-        <a href="mailto:hcdoacao.corona@hc.fm.usp.br">hcdoacao.corona@hc.fm.usp.br</a>.
+        <div>
+          Sim! É possível doar materiais e medicamentos diretamente ao Hospital
+          das Clínicas através da comunicação pelo email oficial:{' '}
+          <a href="mailto:hcdoacao.corona@hc.fm.usp.br">
+            hcdoacao.corona@hc.fm.usp.br
+          </a>
+          .
         </div>
         <div>
           Esse email encontra-se na página oficial de arrecadação de recursos ao
-          HC durante a pandemia: {' '}
+          HC durante a pandemia:{' '}
           <a
             href="http://hc.fm.usp.br/index.php?option=com_content&view=article&id=1456:doacoes-covid19&catid=27&Itemid=226"
             target="_blank"
@@ -126,6 +130,20 @@ const Faq = () => (
         )
       })}
     </ul>
+    Tem outras dúvidas?{' '}
+    <a
+      href="https://forms.gle/1cor3EfbeNSbVsMV7"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        textDecoration: 'none',
+        color: '#7c2f2e',
+        fontWeight: 'bold',
+      }}
+    >
+      Clique aqui
+    </a>{' '}
+    para entrar em contato.
     <DonateButton />
   </section>
 )
