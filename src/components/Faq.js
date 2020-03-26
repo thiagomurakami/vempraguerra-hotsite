@@ -6,7 +6,7 @@ const faq = [
   {
     question: 'Por que o Hospital das Clínicas precisa de recursos?',
     answer:
-      'Os EPI (Equipamentos de Proteção Individual), como por exemplo máscaras cirúrgicas e máscaras N95, fundamentais para a proteção dos profissionais de saúde tiveram aumento exponencial de demanda. Além disso, com bloqueio de fronteiras entre países, fechamento de comércio e fábricas, formou-se uma atmosfera desfavorável para o abastecimento destes produtos, resultando numa escalada de preços. Diante de tal situação, acreditamos que independentemente do aumento de recursos governamentais destinados ao Hospital das Clínicas e a todos os demais hospitais do Estado, precisamos nos organizar como sociedade para ajudar nessa causa.',
+      'Os Equipamentos de Proteção Individual (EPI), permitem que os profissionais de saúde possam trabalhar  de forma segura em ambientes contaminados pelo vírus. Máscaras cirúrgicas e máscaras N95, por exemplo, tiveram aumento exponencial de demanda. Além disso, com bloqueio de fronteiras entre países, fechamento de comércio e fábricas, formou-se uma atmosfera desfavorável para o abastecimento destes produtos, resultando numa escalada de preços. Diante de tal situação, ainda que recursos estaduais estejam sendo mobilizados para crise, acreditamos ser imprescindível nos organizarmos como sociedade para ajudar nessa causa.',
   },
   {
     question: 'Como funciona a compra de suprimentos?',
@@ -16,22 +16,22 @@ const faq = [
   {
     question: 'O governo não está ajudando nos gastos?',
     answer:
-      'O hospital acaba de receber um aporte financeiro do Governo Estadual para controle da epidemia vigente e para se transformar num centro de tratamento de coronavírus. No entanto, analisando o cenário atual, encontramo-nos em estado emergencial de demanda de equipamentos, o que requer medidas rápidas de auxílio financeiro.',
+      'O hospital acaba de receber verba do Governo Estadual para controle da epidemia vigente e para se transformar num centro de tratamento de coronavírus. No entanto, analisando o cenário atual, encontramo-nos em estado emergencial de demanda de equipamentos, o que requer medidas rápidas de auxílio financeiro e participação popular. Ainda que neste momento o Hospital das Clínicas possua recursos, não podemos deixar de nos preparar para os piores cenários, como observado, por exemplo, na Itália.',
   },
   {
     question: 'Para onde vai o dinheiro das doações?',
     answer:
-      'O dinheiro das doações irá diretamente para uma conta designada especificamente para a Fundação Faculdade de Medicina, uma das entidades responsáveis pelo financiamento do complexo do Hospital das Clínicas. O responsável pelo gerenciamento da conta será o Coordenador do Núcleo Econômico Financeiro do HC - Adilson Bretherick, que repassará a verba para a compra dos materiais abaixo citados. A Fundação Faculdade de Medicina (FFM) é uma entidade privada, sem fins lucrativos, reconhecida por seu caráter filantrópico, criada em 1986 pelos antigos alunos da Faculdade de Medicina da USP (FMUSP) para atuar na promoção do ensino, pesquisa e assistência em saúde e apoiar as atividades da Faculdade e do Hospital.',
+      'O dinheiro das doações irá diretamente para uma conta designada especificamente para a Fundação Faculdade de Medicina, uma das entidades responsáveis pelo financiamento do complexo do Hospital das Clínicas. O responsável pelo gerenciamento da conta será o Coordenador do Núcleo Econômico Financeiro do HC, que repassará a verba para a compra dos materiais abaixo citados. A Fundação Faculdade de Medicina (FFM) é uma entidade privada, sem fins lucrativos, reconhecida por seu caráter filantrópico, criada em 1986 pelos antigos alunos da Faculdade de Medicina da USP (FMUSP) para atuar na promoção do ensino, pesquisa e assistência em saúde e apoiar as atividades da Faculdade e do Hospital.',
   },
   {
     question: 'Por que 10 milhões de reais?',
     answer:
-      'Segundo as estimativas da Direção do Núcleo de Infraestrutura e Logística do HC-FMUSP, em um mês comum são necessários, em média, 5.700 máscaras N95, 135.000 máscaras cirúrgicas, 1.330 litros de álcool em gel, 15.000 aventais e 105.000 toucas. Com a epidemia do novo Coronavírus prevê-se que mensalmente serão necessárias 40.000 máscaras N95, 670.000 máscaras cirúrgicas, 6.700 litros de álcool gel, 45.000 aventais e 211.000 toucas. No entanto, esse não é o único desafio. Por conta da alta demanda nacional, os preços desses insumos aumentaram desproporcionalmente. Além disso, o hospital precisa emergencialmente de três máquinas de Raio-X portáteis, no valor unitário de aproximadamente R$ 770.000,00. Considerando-se os recursos para aproximadamente 2 meses, buscamos o objetivo de R$ 10.000.000,00.',
+      'Segundo as estimativas da Direção do Núcleo de Infraestrutura e Logística do HC-FMUSP, em um mês comum são necessários, em média, 5.700 máscaras N95, 135.000 máscaras cirúrgicas, 1.330 litros de álcool em gel, 15.000 aventais e 105.000 toucas. Com a epidemia do novo Coronavírus prevê-se que mensalmente serão necessárias 40.000 máscaras N95, 670.000 máscaras cirúrgicas, 6.700 litros de álcool gel, 45.000 aventais e 211.000 toucas. No entanto, esse não é o único desafio. Por conta da alta demanda nacional, os preços desses insumos aumentaram desproporcionalmente. Além disso, para evitar que pacientes contaminados se desloquem pelo hospital, colocando outros doentes, sem COVID-19, em risco o HC solicita três máquinas de Raio-X portáteis, no valor unitário de aproximadamente R$ 770.000,00. Considerando-se os recursos para aproximadamente 2 meses, buscamos o objetivo de R$ 10.000.000,00.',
   },
   {
     question: 'Por que o nome #VemPraGuerra?',
     answer:
-      'O #VemPraGuerra objetiva a mobilização da sociedade em prol do combate a um inimigo em comum nessa batalha: o COVID-19. Analisando de forma cética o atual cenário nacional, podemos perceber certa semelhança a uma situação de guerra: ambas são situações de emergência que necessitam de grande esforço coletivo. Atualmente, a população se encontra reclusa a suas casas, aguardando notícias, números, previsões. Estamos todos aflitos, com medo das incertezas, receosos pelas perspectivas sócio-político-econômicas. É uma situação emergencial e que necessita de medidas rápidas e imediatas, como a preconizada pelo movimento.',
+      'O #VemPraGuerra objetiva a mobilização da sociedade em prol do combate a um inimigo em comum: o COVID-19. Sabemos que as consequências da pandemia se estenderão muito além da área da saúde, incluindo a esferas econômica, social e cultural. Sendo assim, entendemos que todos os cidadãos devem se empenhar no combate ao novo coronavírus. Percebemos, neste momento delicado, que há muitas pessoas em casa, com a sensação de impotência e, por isso, objetivamos a ação de cada um, sem sair de casa: através da doação de recursos para aquisição de materiais de proteção aos profissionais de saúde.',
   },
 ]
 
@@ -61,8 +61,8 @@ const Faq = () => (
         O SARS-Cov-2 é um vírus que se aloja nas vias aéreas, podendo causar
         sintomas respiratórios. Sua transmissão se dá por meio de gotículas e
         acredita-se que cada pessoa possa contaminar de 2 a 3 outras. Há cerca
-        de 3 semanas, tivemos o primeiro caso confirmado e no dia 23/03 já são
-        mais de 1500 casos e 25 mortes. Considerando a evolução da doença em
+        de 3 semanas, tivemos o primeiro caso confirmado e no dia 25 de março já
+        são mais de 2400 casos e 50 mortes. Considerando a evolução da doença em
         outros países, estimamos um aumento exponencial do número de casos nas
         próximas semanas.
       </p>
@@ -94,8 +94,53 @@ const Faq = () => (
         COVID-19.
       </p>
       <h3>Mais informações sobre as instituições</h3>
-      <a href="https://www.hc.fm.usp.br/" target="_blank" rel="noopener noreferrer">https://www.hc.fm.usp.br/</a>
-      <a href="http://www.ffm.br/" target="_blank" rel="noopener noreferrer">http://www.ffm.br/</a>
+      <a
+        href="https://www.hc.fm.usp.br/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p>https://www.hc.fm.usp.br/</p>
+      </a>
+      <a href="http://www.ffm.br/" target="_blank" rel="noopener noreferrer">
+        <p>http://www.ffm.br/</p>
+      </a>
+      <h2>Equipe #VemPraGuerra</h2>
+      <h3>Em parceria com:</h3>
+      <p>
+        <b>Superintendência HC:</b> Antonio Jose Rodrigues Pereira
+      </p>
+      <p>
+        <b>Fundação Faculdade de Medicina da USP:</b> Prof. Jose Otávio Costa
+        Auler Junior
+      </p>
+
+      <ul>
+        <li>Alexandre Vasserman</li>
+        <li>Alex Faiwichow</li>
+        <li>Ayumi Tomishige</li>
+        <li>Dan Novachi</li>
+        <li>Eduardo Mitelman</li>
+        <li>Fabianna Mainier</li>
+        <li>George Queiroz</li>
+        <li>Gustavo Bezerra</li>
+        <li>Gunter Sarfert</li>
+        <li>Heloisa Aun</li>
+        <li>Hugo Metzger</li>
+        <li>Marcela Butros</li>
+        <li>Natsumi Tomishige</li>
+        <li>James Feeler</li>
+        <li>Júlia Ferraz</li>
+        <li>Júnior Santos</li>
+        <li>Marco Avanzi</li>
+        <li>Patrícia Melhem</li>
+        <li>Pedro Bacchi</li>
+        <li>Ramon Ballverdú</li>
+        <li>Renilson Barros</li>
+        <li>Ricardo Vasserman</li>
+        <li>Tatiane Menezes</li>
+        <li>Thiago Murakami</li>
+        <li>Thomas Maghidman e colaboradores</li>
+      </ul>
     </section>
   </section>
 )

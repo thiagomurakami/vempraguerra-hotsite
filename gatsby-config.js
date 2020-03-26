@@ -37,7 +37,15 @@ module.exports = {
           },
         ],
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "vempraguerra.com.br",
+        protocol: "https",
+        hostname: "www.vempraguerra.com.br",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

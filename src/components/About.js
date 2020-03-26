@@ -12,11 +12,10 @@ const About = () => (
       </p>
       <p>
         Desse cenário, nasceu o movimento <b>#VemPraGuerra</b>, que uniu médicos
-        e profissionais de diversas áreas (excluir o parênteses com as áreas),
-        por meio de trabalho voluntário. Nosso objetivo é convocar a sociedade
-        civil para participar da batalha contra o novo coronavírus através da
-        arrecadação de fundos para a compra de materiais hospitalares essenciais
-        dessa nova demanda.
+        e profissionais de diversas áreas, por meio de trabalho voluntário.
+        Nosso objetivo é convocar a sociedade civil para participar da batalha
+        contra o novo coronavírus através da arrecadação de fundos para a compra
+        de materiais hospitalares, essenciais para essa nova demanda.
       </p>
       <h2>META</h2>
       <p>
@@ -24,20 +23,20 @@ const About = () => (
         totalitariamente para a compra de:
       </p>
       <ul>
-        <li>40.000 máscaras N95 </li>
-        <li>670.000 máscaras cirúrgicas </li>
-        <li>6.700 litros de álcool gel </li>
-        <li>45.000 aventais </li>
-        <li>211.000 toucas </li>
+        <li>80.000 máscaras N95;</li>
+        <li>1.340.000 máscaras cirúrgicas;</li>
+        <li>13.400 litros de álcool gel;</li>
+        <li>90.000 aventais;</li>
+        <li>422.000 toucas;</li>
         <li>3 máquinas portáteis de raio-x </li>
       </ul>
       <p>
-        Tais recursos serão utilizados em 2 meses de atendimento, segundo as
-        projeções de aumento dos atendimentos.
+        Tais recursos serão utilizados nos próximos 2 meses de trabalho, segundo
+        as projeções de aumento dos atendimentos.
       </p>
       <p>
         O #VemPraGuerra convoca você a ajudar no combate dessa pandemia: doando
-        aos que estarão na linha de frente!
+        diretamente aos que estarão na linha de frente!
       </p>
     </div>
     <div style={{ textAlign: 'center' }}>
