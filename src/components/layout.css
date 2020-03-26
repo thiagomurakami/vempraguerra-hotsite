@@ -385,8 +385,28 @@ nav > a {
   padding: 0;
   border: 0;
 }
+
 .donate-button:hover {
   background: #a5403f;
+}
+
+.social-media-link {
+  text-decoration: none;
+}
+
+.social-media-link:visited {
+  color: black;
+}
+
+.social-media-text {
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .social-media-text {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
