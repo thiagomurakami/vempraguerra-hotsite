@@ -5,7 +5,10 @@ import Faq from "../components/Faq"
 import Banner from "../components/images/Banner"
 import Header from "../components/Header"
 import Layout from "../components/Layout"
+import RelevantData from "../components/RelevantData"
+import Team from "../components/Team"
 import SEO from "../components/seo"
+import DonateButton from '../components/DonateButton'
 
 const IndexPage = () => (
   <>
@@ -18,7 +21,7 @@ const IndexPage = () => (
         href="https://www.charidy.com/vempraguerra"
       >
         <Banner />
-        <button
+        {/* <button
           type="button"
           style={{
             '-moz-appearance': 'none',
@@ -40,20 +43,15 @@ const IndexPage = () => (
           }}
         >
           Doar agora
-        </button>
+        </button> */}
       </a>
     </div>
     <Layout>
       <About />
       <Faq />
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.charidy.com/vempraguerra"
-        style={{textDecoration: 'none'}}
-      >
-        <h2>Clique aqui para contribuir</h2>
-      </a>
+      <RelevantData />
+      <Team />
+      <DonateButton />
     </Layout>
   </>
 )

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import DonateButton from './DonateButton'
+
 const About = () => (
   <section id="about">
     <h2>SOBRE O #VEMPRAGUERRA</h2>
@@ -17,6 +19,9 @@ const About = () => (
         contra o novo coronavírus através da arrecadação de fundos para a compra
         de materiais hospitalares, essenciais para essa nova demanda.
       </p>
+
+      <DonateButton />
+
       <h2>META</h2>
       <p>
         A nossa meta é atingir 10 milhões de reais que serão destinados
@@ -35,10 +40,13 @@ const About = () => (
         as projeções de aumento dos atendimentos.
       </p>
       <p>
-        O #VemPraGuerra convoca você a ajudar no combate dessa pandemia: doando
+        O <b>#VemPraGuerra</b> convoca você a ajudar no combate dessa pandemia: doando
         diretamente aos que estarão na linha de frente!
       </p>
     </div>
+
+    <DonateButton />
+
     <div style={{ textAlign: 'center' }}>
       <iframe
         src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F105616944418128%2Fvideos%2F2471836366251797%2F&show_text=0&width=560"

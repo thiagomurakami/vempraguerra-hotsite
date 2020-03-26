@@ -1,6 +1,7 @@
 import React from 'react'
 
 import CollapsibleQuestion from './CollapsibleQuestion'
+import DonateButton from './DonateButton'
 
 const faq = [
   {
@@ -24,24 +25,95 @@ const faq = [
       'O dinheiro das doações irá diretamente para uma conta designada especificamente para a Fundação Faculdade de Medicina, uma das entidades responsáveis pelo financiamento do complexo do Hospital das Clínicas. O responsável pelo gerenciamento da conta será o Coordenador do Núcleo Econômico Financeiro do HC, que repassará a verba para a compra dos materiais abaixo citados. A Fundação Faculdade de Medicina (FFM) é uma entidade privada, sem fins lucrativos, reconhecida por seu caráter filantrópico, criada em 1986 pelos antigos alunos da Faculdade de Medicina da USP (FMUSP) para atuar na promoção do ensino, pesquisa e assistência em saúde e apoiar as atividades da Faculdade e do Hospital.',
   },
   {
+    question: 'Existe outra forma de doação que não seja o cartão de crédito?',
+    answer: (
+      <>
+        Sim! É possível fazer a doação através de depósito/transferência pela
+        conta oficial da Fundação Faculdade de Medicina (FFM):
+        <ul style={{ listStyleType: 'none', marginLeft: 0, marginTop: '1rem' }}>
+          <li>
+            <b>Nome:</b> Fundação Faculdade de Medicina - FFM
+          </li>
+          <li>
+            <b>Endereço:</b> Avenida Rebouças, 381
+          </li>
+          <li>
+            <b>CEP:</b> 05401-000
+          </li>
+          <li>
+            <b>CNPJ:</b> 56577059/0001-00
+          </li>
+          <li>
+            <b>Banco:</b> Santander
+          </li>
+          <li>
+            <b>Agência:</b> 0201
+          </li>
+          <li>
+            <b>Conta corrente:</b> 13.003244-4
+          </li>
+        </ul>
+        <span style={{ whiteSpace: 'pre-line' }}>
+          Após realizar a doação, por favor, MANDAR O COMPROVANTE para{' '}
+          <b>charidy.hc@gmail.com</b>.
+        </span>
+      </>
+    ),
+  },
+  {
     question: 'Por que 10 milhões de reais?',
     answer:
       'Segundo as estimativas da Direção do Núcleo de Infraestrutura e Logística do HC-FMUSP, em um mês comum são necessários, em média, 5.700 máscaras N95, 135.000 máscaras cirúrgicas, 1.330 litros de álcool em gel, 15.000 aventais e 105.000 toucas. Com a epidemia do novo Coronavírus prevê-se que mensalmente serão necessárias 40.000 máscaras N95, 670.000 máscaras cirúrgicas, 6.700 litros de álcool gel, 45.000 aventais e 211.000 toucas. No entanto, esse não é o único desafio. Por conta da alta demanda nacional, os preços desses insumos aumentaram desproporcionalmente. Além disso, para evitar que pacientes contaminados se desloquem pelo hospital, colocando outros doentes, sem COVID-19, em risco o HC solicita três máquinas de Raio-X portáteis, no valor unitário de aproximadamente R$ 770.000,00. Considerando-se os recursos para aproximadamente 2 meses, buscamos o objetivo de R$ 10.000.000,00.',
   },
   {
-    question: 'Por que o nome #VemPraGuerra?',
-    answer:
-      'O #VemPraGuerra objetiva a mobilização da sociedade em prol do combate a um inimigo em comum: o COVID-19. Sabemos que as consequências da pandemia se estenderão muito além da área da saúde, incluindo a esferas econômica, social e cultural. Sendo assim, entendemos que todos os cidadãos devem se empenhar no combate ao novo coronavírus. Percebemos, neste momento delicado, que há muitas pessoas em casa, com a sensação de impotência e, por isso, objetivamos a ação de cada um, sem sair de casa: através da doação de recursos para aquisição de materiais de proteção aos profissionais de saúde.',
+    question: 'Existe a opção de doar materiais e medicamentos diretamente?',
+    answer: (
+      <>
+        <div>Sim! É possível doar materiais e medicamentos diretamente ao Hospital
+        das Clínicas através da comunicação pelo email oficial: {' '}
+        <a href="mailto:hcdoacao.corona@hc.fm.usp.br">hcdoacao.corona@hc.fm.usp.br</a>.
+        </div>
+        <div>
+          Esse email encontra-se na página oficial de arrecadação de recursos ao
+          HC durante a pandemia: {' '}
+          <a
+            href="http://hc.fm.usp.br/index.php?option=com_content&view=article&id=1456:doacoes-covid19&catid=27&Itemid=226"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            http://hc.fm.usp.br/index.php?option=com_content&view=article&id=1456:doacoes-covid19&catid=27&Itemid=226
+          </a>
+        </div>
+      </>
+    ),
+  },
+  {
+    question: (
+      <>
+        Por que o nome <b>#VemPraGuerra</b>?
+      </>
+    ),
+    answer: (
+      <>
+        O <b>#VemPraGuerra</b> objetiva a mobilização da sociedade em prol do
+        combate a um inimigo em comum: o COVID-19. Sabemos que as consequências
+        da pandemia se estenderão muito além da área da saúde, incluindo a
+        esferas econômica, social e cultural. Sendo assim, entendemos que todos
+        os cidadãos devem se empenhar no combate ao novo coronavírus.
+        Percebemos, neste momento delicado, que há muitas pessoas em casa, com a
+        sensação de impotência e, por isso, objetivamos a ação de cada um, sem
+        sair de casa: através da doação de recursos para aquisição de materiais
+        de proteção aos profissionais de saúde.
+      </>
+    ),
   },
 ]
 
-// const relevantData = [
-//   {question: 'Dados sobre o coronavírus', answer: }
-// ]
-
 const Faq = () => (
   <section id="faq" style={{ marginTop: '1rem' }}>
-    <h2>FAQ #VemPraGuerra</h2>
+    <h2>
+      Perguntas Frequentes <b>#VemPraGuerra</b>
+    </h2>
     <ul style={{ listStyleType: 'none', marginLeft: 0 }}>
       {faq.map(({ answer, question }, id) => {
         return (
@@ -54,94 +126,7 @@ const Faq = () => (
         )
       })}
     </ul>
-    <section id="relevant-data">
-      <h2>Dados Relevantes</h2>
-      <h3>Dados sobre o coronavírus</h3>
-      <p>
-        O SARS-Cov-2 é um vírus que se aloja nas vias aéreas, podendo causar
-        sintomas respiratórios. Sua transmissão se dá por meio de gotículas e
-        acredita-se que cada pessoa possa contaminar de 2 a 3 outras. Há cerca
-        de 3 semanas, tivemos o primeiro caso confirmado e no dia 25 de março já
-        são mais de 2400 casos e 50 mortes. Considerando a evolução da doença em
-        outros países, estimamos um aumento exponencial do número de casos nas
-        próximas semanas.
-      </p>
-      <h3>Dados sobre o Hospital das Clínicas da USP</h3>
-      <p>
-        O Hospital das Clínicas da Faculdade de Medicina da Universidade de São
-        Paulo é o maior complexo hospitalar da América Latina. Com 75 anos de
-        história, 600 mil metros quadrados de área e 11 institutos, o complexo
-        possui 19 mil colaboradores, 2500 leitos e realiza mais de 1,4 milhão
-        consultas ambulatoriais por ano, 160 mil atendimentos urgências e
-        emergências e 47 mil cirurgias. São 66 laboratórios de investigação
-        médica, com mais de 200 grupos de pesquisa buscando constantemente
-        desenvolver e promover a excelência no ensino e pesquisa.
-      </p>
-      <p>
-        Tendo como pilares fundamentais Ensino, Pesquisa, e Assistência, o HC
-        está na linha de frente na guerra contra o coronavírus. O hospital vem
-        se mobilizando desde o início da disseminação do COVID-19, tendo
-        organizado um Pronto-Atendimento somente para casos suspeitos, isolado
-        do restante do hospital, aumentado sua capacidade de leitos de terapia
-        intensiva e vem realizando treinamentos sistemáticos de seus
-        funcionários. Além disso, suspendeu grande parte de seus atendimentos
-        ambulatoriais para mobilizar a maior quantidade de pessoas para o
-        atendimento dos doentes urgentes.
-      </p>
-      <p>
-        Recentemente, foi iniciada a maior operação da história do Hospital das
-        Clínicas, que propõe a liberação de 900 leitos destinados ao combate do
-        COVID-19.
-      </p>
-      <h3>Mais informações sobre as instituições</h3>
-      <a
-        href="https://www.hc.fm.usp.br/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <p>https://www.hc.fm.usp.br/</p>
-      </a>
-      <a href="http://www.ffm.br/" target="_blank" rel="noopener noreferrer">
-        <p>http://www.ffm.br/</p>
-      </a>
-      <h2>Equipe #VemPraGuerra</h2>
-      <h3>Em parceria com:</h3>
-      <p>
-        <b>Superintendência HC:</b> Antonio Jose Rodrigues Pereira
-      </p>
-      <p>
-        <b>Fundação Faculdade de Medicina da USP:</b> Prof. Jose Otávio Costa
-        Auler Junior
-      </p>
-
-      <ul>
-        <li>Alexandre Vasserman</li>
-        <li>Alex Faiwichow</li>
-        <li>Ayumi Tomishige</li>
-        <li>Dan Novachi</li>
-        <li>Eduardo Mitelman</li>
-        <li>Fabianna Mainier</li>
-        <li>George Queiroz</li>
-        <li>Gustavo Bezerra</li>
-        <li>Gunter Sarfert</li>
-        <li>Heloisa Aun</li>
-        <li>Hugo Metzger</li>
-        <li>Marcela Butros</li>
-        <li>Natsumi Tomishige</li>
-        <li>James Feeler</li>
-        <li>Júlia Ferraz</li>
-        <li>Júnior Santos</li>
-        <li>Marco Avanzi</li>
-        <li>Patrícia Melhem</li>
-        <li>Pedro Bacchi</li>
-        <li>Ramon Ballverdú</li>
-        <li>Renilson Barros</li>
-        <li>Ricardo Vasserman</li>
-        <li>Tatiane Menezes</li>
-        <li>Thiago Murakami</li>
-        <li>Thomas Maghidman e colaboradores</li>
-      </ul>
-    </section>
+    <DonateButton />
   </section>
 )
 

@@ -1,6 +1,9 @@
 .question-box, .question-box label {
-  cursor: pointer;
   margin-bottom: 1rem;
+}
+
+.question-box label {
+  cursor: pointer;
 }
 
 .question-box {

@@ -1,0 +1,17 @@
+#mobile-banner {
+  display: none;
+}
+
+#desktop-banner {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #desktop-banner {
+    display: none;
+  }
+
+  #mobile-banner {
+    display: block;
+  }
+}

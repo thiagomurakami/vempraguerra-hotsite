@@ -1,6 +1,8 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+
+import './banner.css'
 
 const HeaderLogo = () => {
   const data = useStaticQuery(graphql`
@@ -22,18 +24,16 @@ const HeaderLogo = () => {
     }
   `)
 
-  const sources = [
-    {
-      ...data.mobileImage.childImageSharp.fluid,
-      media: `(max-width: 768px)`,
-    },
-    {
-      ...data.desktopImage.childImageSharp.fluid,
-      media: `(min-width: 768px)`,
-    },
-  ]
-
-  return <Img fluid={sources} />
+  return (
+    <>
+      <div id="mobile-banner">
+        <Img fluid={data.mobileImage.childImageSharp.fluid} />
+      </div>
+      <div id="desktop-banner">
+        <Img fluid={data.desktopImage.childImageSharp.fluid} />
+      </div>
+    </>
+  )
 }
 
 export default HeaderLogo
