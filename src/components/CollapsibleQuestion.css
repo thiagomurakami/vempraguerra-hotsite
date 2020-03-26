@@ -1,0 +1,22 @@
+.question-box, .question-box label {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.question-box {
+  border-left: 4px solid #7C2F2E;
+  padding-left: 1rem;
+}
+
+.question-box input {
+  display: none;
+}
+
+.question-box input:checked ~ p{
+  display:block;
+  margin-top: 1rem;
+}
+
+.question-box input:not(:checked) ~ p{
+ display:none;
+}
