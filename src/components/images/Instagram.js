@@ -1,6 +1,6 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 const Instagram = () => {
   const data = useStaticQuery(graphql`
@@ -14,7 +14,10 @@ const Instagram = () => {
       }
     }
   `)
-  return <Img alt="instagram" fluid={data.placeholderImage.childImageSharp.fluid} />
+
+  return (
+    <Img alt="instagram" fluid={data.placeholderImage.childImageSharp.fluid} />
+  )
 }
 
 export default Instagram

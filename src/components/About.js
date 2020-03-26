@@ -40,8 +40,8 @@ const About = () => (
         as projeções de aumento dos atendimentos.
       </p>
       <p>
-        O <b>#VemPraGuerra</b> convoca você a ajudar no combate dessa pandemia: doando
-        diretamente aos que estarão na linha de frente!
+        O <b>#VemPraGuerra</b> convoca você a ajudar no combate dessa pandemia:
+        doando diretamente aos que estarão na linha de frente!
       </p>
     </div>
 

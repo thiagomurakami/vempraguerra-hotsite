@@ -7,7 +7,6 @@ const Footer = () => (
   <footer
     style={{ margin: '0 auto', maxWidth: 900, padding: `0 1.0875rem 1.45rem` }}
   >
-    <h2>Entre em contato</h2>
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <div>
         <a

@@ -1,14 +1,15 @@
 import React from "react"
 
 import About from "../components/About"
-import Faq from "../components/Faq"
 import Banner from "../components/images/Banner"
+import DonateButton from '../components/DonateButton'
+import Faq from "../components/Faq"
 import Header from "../components/Header"
 import Layout from "../components/Layout"
+import News from "../components/News"
 import RelevantData from "../components/RelevantData"
-import Team from "../components/Team"
 import SEO from "../components/seo"
-import DonateButton from '../components/DonateButton'
+import Team from "../components/Team"
 
 const IndexPage = () => (
   <>
@@ -50,6 +51,7 @@ const IndexPage = () => (
       <About />
       <Faq />
       <RelevantData />
+      <News />
       <Team />
       <DonateButton />
     </Layout>

@@ -14,10 +14,7 @@ const DonateButton = () => (
       rel="noopener noreferrer"
       href="https://www.charidy.com/vempraguerra"
     >
-      <button
-        className="donate-button"
-        type="button"
-      >
+      <button className="donate-button" type="button">
         Doar Agora
       </button>
     </a>

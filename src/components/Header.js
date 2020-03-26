@@ -1,18 +1,18 @@
-import PropTypes from "prop-types"
-import React from "react"
-import HeaderLogo from "./images/HeaderLogo"
+import PropTypes from 'prop-types'
+import React from 'react'
+import HeaderLogo from './images/HeaderLogo'
 
 const Header = () => {
   return (
     <header
       style={{
-        background: "white",
+        background: 'white',
       }}
     >
       <div
         style={{
-          padding: "0px 1.0875rem 1.45rem",
-          margin: "0px auto",
+          padding: '0px 1.0875rem 1.45rem',
+          margin: '0px auto',
           maxWidth: 900,
         }}
       >

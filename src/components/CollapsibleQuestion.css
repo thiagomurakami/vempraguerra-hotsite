@@ -1,4 +1,5 @@
-.question-box, .question-box label {
+.question-box,
+.question-box label {
   margin-bottom: 1rem;
 }
 
@@ -7,7 +8,7 @@
 }
 
 .question-box {
-  border-left: 4px solid #7C2F2E;
+  border-left: 4px solid #7c2f2e;
   padding-left: 1rem;
 }
 
@@ -15,11 +16,11 @@
   display: none;
 }
 
-.question-box input:checked ~ p{
-  display:block;
+.question-box input:checked ~ p {
+  display: block;
   margin-top: 1rem;
 }
 
-.question-box input:not(:checked) ~ p{
- display:none;
+.question-box input:not(:checked) ~ p {
+  display: none;
 }
