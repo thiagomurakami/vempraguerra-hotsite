@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import HeaderLogo from "./images/HeaderLogo"
 
-const Header = ({}) => {
+const Header = () => {
   return (
     <header
       style={{

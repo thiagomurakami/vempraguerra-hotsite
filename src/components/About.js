@@ -49,6 +49,7 @@ const About = () => (
           maxWidth: '90%',
           margin: '0 auto',
         }}
+        title="Vídeo facebook"
         scrolling="no"
         frameBorder="0"
         allowtransparency="true"
