@@ -25,7 +25,8 @@ const About = () => (
       <h2>META</h2>
       <p>
         A nossa meta é atingir 10 milhões de reais que serão destinados
-        totalitariamente para a compra de:
+        totalitariamente para a compra de equipamentos hospitalares essenciais,
+        dentre eles:
       </p>
       <ul>
         <li>80.000 máscaras N95;</li>

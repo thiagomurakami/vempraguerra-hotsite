@@ -131,19 +131,17 @@ const Faq = () => (
       })}
     </ul>
     Tem outras dúvidas?{' '}
+    Manda um e-mail para{' '}
     <a
-      href="https://forms.gle/1cor3EfbeNSbVsMV7"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="mailto:movimentovempraguerra@gmail.com"
       style={{
         textDecoration: 'none',
         color: '#7c2f2e',
         fontWeight: 'bold',
       }}
     >
-      Clique aqui
-    </a>{' '}
-    para entrar em contato.
+      movimentovempraguerra@gmail.com
+    </a>.
     <DonateButton />
   </section>
 )
