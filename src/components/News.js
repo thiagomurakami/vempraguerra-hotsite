@@ -7,6 +7,104 @@ const News = () => (
     <ul style={{ listStyleType: 'none', marginLeft: 0, marginTop: '1rem' }}>
       <li>
         <a
+          href="https://emais.estadao.com.br/noticias/bem-estar,medicos-do-hospital-das-clinicas-fazem-campanha-para-arrecadar-insumos-para-combate-ao-coronavirus,70003250756"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Estadão: Médicos do Hospital das Clínicas fazem campanha para
+          arrecadar insumos para combate ao coronavírus (28/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.istoedinheiro.com.br/hospital-das-clinicas-faz-campanha-e-busca-arrecadar-r-10-milhoes/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Istoé Dinheiro: Hospital das Clínicas faz campanha e busca arrecadar
+          R$ 10 milhões (28/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://globoplay.globo.com/v/8438467/programa/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          SPTV (SP2): Prefeitura pretende montar 2.100 leitos em hospitais de
+          campanha na capital (27/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.greenpeace.org/brasil/blog/14-formas-de-ajudar-quem-precisa-durante-a-pandemia-do-coronavirus/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Greenpeace: 14 formas de ajudar quem precisa durante a pandemia do
+          coronavírus (27/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://br.noticias.yahoo.com/clima-de-guerra-percepcoes-medico-coronavirus-185702687.html?soc_src=community&soc_trk=wa"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Yahoo: “É um clima de guerra”: percepções de um médico em meio ao
+          coronavírus (27/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.buzzfeed.com/br/gaiapassarelli/como-ajudar-coronavirus"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Buzzfeed: Como ajudar durante a pandemia do coronavírus (27/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.huffpostbrasil.com/entry/materiais-hospital-sp_br_5e7a5362c5b62f90bc5271ee?utm_hp_ref=br-homepage"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          HuffPost: Hospitais de SP se mobilizam para evitar falta de máscaras e
+          insumos contra coronavírus (25/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www1.folha.uol.com.br/equilibrioesaude/2020/03/hospital-das-clinicas-arrecada-r-12-mi-para-compra-da-mascaras-e-alcool-em-gel.shtml"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Folha: Hospital das Clínicas arrecada R$ 1,2 mi para compra de
+          máscaras e de álcool em gel (25/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://catracalivre.com.br/saude-bem-estar/medicos-do-hc-se-mobilizam-para-arrecadar-r-10-mi-para-combater-coronavirus/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Catraca Livre: Médicos do HC se mobilizam para arrecadar R$ 10 mi para
+          combater coronavírus (24/03/2020)
+        </a>
+      </li>
+      <li>
+        <a
           href="https://www.uol.com.br/vivabem/noticias/redacao/2020/03/23/hc-se-prepara-para-aumento-de-casos-e-faz-campanha-para-arrecadar-r-10-mi.htm"
           target="_blank"
           rel="noopener noreferrer"
@@ -83,6 +181,26 @@ const News = () => (
         >
           Corinthians: #VemPraGuerra Corinthians adere à campanha para compra de
           insumos de combate ao coronavírus
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://spfc24horas.com.br/vem-pra-guerra-sao-paulo-divulga-campanha-importante-de-doacao-para-hospital/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          SPFC: ‘Vem pra Guerra’! São Paulo divulga campanha importante de doação para hospital
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/p/B-QZbAUgMEe/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Santos FC: Instagram
         </a>
       </li>
     </ul>
