@@ -10,6 +10,7 @@ import News from "../components/News"
 import RelevantData from "../components/RelevantData"
 import SEO from "../components/seo"
 import Team from "../components/Team"
+import Status from "../components/Status"
 
 const IndexPage = () => (
   <>
@@ -48,6 +49,7 @@ const IndexPage = () => (
       </a>
     </div>
     <Layout>
+      <Status />
       <About />
       <Faq />
       <RelevantData />

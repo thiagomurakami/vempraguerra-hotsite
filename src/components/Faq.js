@@ -2,7 +2,6 @@ import React from 'react'
 
 import CollapsibleQuestion from './CollapsibleQuestion'
 import DonateButton from './DonateButton'
-import Status from './Status'
 
 const faq = [
   {
@@ -119,7 +118,6 @@ const Faq = () => (
     <h2>
       Perguntas Frequentes <b>#VemPraGuerra</b>
     </h2>
-    <Status />
     <ul style={{ listStyleType: 'none', marginLeft: 0 }}>
       {faq.map(({ answer, question }, id) => {
         return (
