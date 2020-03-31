@@ -16,11 +16,11 @@
   display: none;
 }
 
-.question-box input:checked ~ p {
+.question-box input:checked ~ div {
   display: block;
   margin-top: 1rem;
 }
 
-.question-box input:not(:checked) ~ p {
+.question-box input:not(:checked) ~ div {
   display: none;
 }

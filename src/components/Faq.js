@@ -2,27 +2,28 @@ import React from 'react'
 
 import CollapsibleQuestion from './CollapsibleQuestion'
 import DonateButton from './DonateButton'
+import Status from './Status'
 
 const faq = [
   {
     question: 'Por que o Hospital das Clínicas precisa de recursos?',
     answer:
-      'Os Equipamentos de Proteção Individual (EPI), permitem que os profissionais de saúde possam trabalhar  de forma segura em ambientes contaminados pelo vírus. Máscaras cirúrgicas e máscaras N95, por exemplo, tiveram aumento exponencial de demanda. Além disso, com bloqueio de fronteiras entre países, fechamento de comércio e fábricas, formou-se uma atmosfera desfavorável para o abastecimento destes produtos, resultando numa escalada de preços. Diante de tal situação, ainda que recursos estaduais estejam sendo mobilizados para crise, acreditamos ser imprescindível nos organizarmos como sociedade para ajudar nessa causa.',
+      <p>Os Equipamentos de Proteção Individual (EPI), permitem que os profissionais de saúde possam trabalhar  de forma segura em ambientes contaminados pelo vírus. Máscaras cirúrgicas e máscaras N95, por exemplo, tiveram aumento exponencial de demanda. Além disso, com bloqueio de fronteiras entre países, fechamento de comércio e fábricas, formou-se uma atmosfera desfavorável para o abastecimento destes produtos, resultando numa escalada de preços. Diante de tal situação, ainda que recursos estaduais estejam sendo mobilizados para crise, acreditamos ser imprescindível nos organizarmos como sociedade para ajudar nessa causa.</p>,
   },
   {
     question: 'Como funciona a compra de suprimentos?',
     answer:
-      'A verba hospitalar se dá por meio de duas formas: Governo Estadual e Fundação Faculdade de Medicina, que é uma entidade privada, sem fins lucrativos criada pelo antigos alunos da Faculdade de Medicina da USP para apoiar a Faculdade e o Hospital das Clínicas. A compra de materiais para os hospitais do complexo se dá por meio da Direção do Núcleo de Infraestrutura e Logística do Hospital das Clínicas, que em uma situação de emergência e crise, está autorizada a comprar insumos por cotações no mercado, acelerando a chegada de novos recursos.',
+      <p>A verba hospitalar se dá por meio de duas formas: Governo Estadual e Fundação Faculdade de Medicina, que é uma entidade privada, sem fins lucrativos criada pelo antigos alunos da Faculdade de Medicina da USP para apoiar a Faculdade e o Hospital das Clínicas. A compra de materiais para os hospitais do complexo se dá por meio da Direção do Núcleo de Infraestrutura e Logística do Hospital das Clínicas, que em uma situação de emergência e crise, está autorizada a comprar insumos por cotações no mercado, acelerando a chegada de novos recursos.</p>,
   },
   {
     question: 'O governo não está ajudando nos gastos?',
     answer:
-      'O hospital acaba de receber verba do Governo Estadual para controle da epidemia vigente e para se transformar num centro de tratamento de coronavírus. No entanto, analisando o cenário atual, encontramo-nos em estado emergencial de demanda de equipamentos, o que requer medidas rápidas de auxílio financeiro e participação popular. Ainda que neste momento o Hospital das Clínicas possua recursos, não podemos deixar de nos preparar para os piores cenários, como observado, por exemplo, na Itália.',
+      <p>O hospital acaba de receber verba do Governo Estadual para controle da epidemia vigente e para se transformar num centro de tratamento de coronavírus. No entanto, analisando o cenário atual, encontramo-nos em estado emergencial de demanda de equipamentos, o que requer medidas rápidas de auxílio financeiro e participação popular. Ainda que neste momento o Hospital das Clínicas possua recursos, não podemos deixar de nos preparar para os piores cenários, como observado, por exemplo, na Itália.</p>,
   },
   {
     question: 'Para onde vai o dinheiro das doações?',
     answer:
-      'O dinheiro das doações irá diretamente para uma conta designada especificamente para a Fundação Faculdade de Medicina, uma das entidades responsáveis pelo financiamento do complexo do Hospital das Clínicas. O responsável pelo gerenciamento da conta será o Coordenador do Núcleo Econômico Financeiro do HC, que repassará a verba para a compra dos materiais abaixo citados. A Fundação Faculdade de Medicina (FFM) é uma entidade privada, sem fins lucrativos, reconhecida por seu caráter filantrópico, criada em 1986 pelos antigos alunos da Faculdade de Medicina da USP (FMUSP) para atuar na promoção do ensino, pesquisa e assistência em saúde e apoiar as atividades da Faculdade e do Hospital.',
+      <p>O dinheiro das doações irá diretamente para uma conta designada especificamente para a Fundação Faculdade de Medicina, uma das entidades responsáveis pelo financiamento do complexo do Hospital das Clínicas. O responsável pelo gerenciamento da conta será o Coordenador do Núcleo Econômico Financeiro do HC, que repassará a verba para a compra dos materiais abaixo citados. A Fundação Faculdade de Medicina (FFM) é uma entidade privada, sem fins lucrativos, reconhecida por seu caráter filantrópico, criada em 1986 pelos antigos alunos da Faculdade de Medicina da USP (FMUSP) para atuar na promoção do ensino, pesquisa e assistência em saúde e apoiar as atividades da Faculdade e do Hospital.</p>,
   },
   {
     question: 'Existe outra forma de doação que não seja o cartão de crédito?',
@@ -63,7 +64,7 @@ const faq = [
   {
     question: 'Por que 10 milhões de reais?',
     answer:
-      'Segundo as estimativas da Direção do Núcleo de Infraestrutura e Logística do HC-FMUSP, em um mês comum são necessários, em média, 5.700 máscaras N95, 135.000 máscaras cirúrgicas, 1.330 litros de álcool em gel, 15.000 aventais e 105.000 toucas. Com a epidemia do novo Coronavírus prevê-se que mensalmente serão necessárias 40.000 máscaras N95, 670.000 máscaras cirúrgicas, 6.700 litros de álcool gel, 45.000 aventais e 211.000 toucas. No entanto, esse não é o único desafio. Por conta da alta demanda nacional, os preços desses insumos aumentaram desproporcionalmente. Além disso, para evitar que pacientes contaminados se desloquem pelo hospital, colocando outros doentes, sem COVID-19, em risco o HC solicita três máquinas de Raio-X portáteis, no valor unitário de aproximadamente R$ 770.000,00. Considerando-se os recursos para aproximadamente 2 meses, buscamos o objetivo de R$ 10.000.000,00.',
+      <p>Segundo as estimativas da Direção do Núcleo de Infraestrutura e Logística do HC-FMUSP, em um mês comum são necessários, em média, 5.700 máscaras N95, 135.000 máscaras cirúrgicas, 1.330 litros de álcool em gel, 15.000 aventais e 105.000 toucas. Com a epidemia do novo Coronavírus prevê-se que mensalmente serão necessárias 40.000 máscaras N95, 670.000 máscaras cirúrgicas, 6.700 litros de álcool gel, 45.000 aventais e 211.000 toucas. No entanto, esse não é o único desafio. Por conta da alta demanda nacional, os preços desses insumos aumentaram desproporcionalmente. Além disso, para evitar que pacientes contaminados se desloquem pelo hospital, colocando outros doentes, sem COVID-19, em risco o HC solicita três máquinas de Raio-X portáteis, no valor unitário de aproximadamente R$ 770.000,00. Considerando-se os recursos para aproximadamente 2 meses, buscamos o objetivo de R$ 10.000.000,00.</p>,
   },
   {
     question: 'Existe a opção de doar materiais e medicamentos diretamente?',
@@ -118,6 +119,7 @@ const Faq = () => (
     <h2>
       Perguntas Frequentes <b>#VemPraGuerra</b>
     </h2>
+    <Status />
     <ul style={{ listStyleType: 'none', marginLeft: 0 }}>
       {faq.map(({ answer, question }, id) => {
         return (

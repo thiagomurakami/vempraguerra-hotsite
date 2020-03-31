@@ -8,7 +8,7 @@ const CollapsibleQuestion = ({ answer, name, question }) => {
       <label htmlFor={name}>
         <b>{question}</b>
       </label>
-      <p>{answer}</p>
+      <div>{answer}</div>
     </li>
   )
 }
