@@ -203,6 +203,36 @@ const News = () => (
           Santos FC: Instagram
         </a>
       </li>
+      <li>
+        <a
+          href="https://www.instagram.com/p/B-M8oMRhlKy/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Nando Reis: Instagram
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/stories/highlights/18134193082012148/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Reynaldo Gianecchini, Rodrigo Santoro, Ale Xavier, Nanda Costa e mais: Instagram
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/p/B-aQa-5HCAY/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+        >
+          Wellington Nogueira - Doutores da Alegria: Instagram
+        </a>
+      </li>
     </ul>
   </section>
 )
