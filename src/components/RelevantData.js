@@ -1,9 +1,7 @@
 import React from 'react'
 
-import DonateButton from './DonateButton'
-
 const RelevantData = () => (
-  <section id="relevant-data">
+  <section id="relevant-data" style={{marginTop: '2rem', marginBottom: '2rem'}}>
     <h2>Dados Relevantes</h2>
     <h3>Dados sobre o coronavírus</h3>
     <p>
@@ -52,8 +50,6 @@ const RelevantData = () => (
     <a href="http://www.ffm.br/" target="_blank" rel="noopener noreferrer">
       <p>http://www.ffm.br/</p>
     </a>
-
-    <DonateButton />
   </section>
 )
 

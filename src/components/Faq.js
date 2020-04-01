@@ -1,7 +1,6 @@
 import React from 'react'
 
 import CollapsibleQuestion from './CollapsibleQuestion'
-import DonateButton from './DonateButton'
 
 const faq = [
   {
@@ -142,7 +141,6 @@ const Faq = () => (
     >
       movimentovempraguerra@gmail.com
     </a>.
-    <DonateButton />
   </section>
 )
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Facebook from './images/Facebook'
-import Instagram from './images/Instagram'
+import InstagramButton from './InstagramButton'
 import HeaderLogo from './images/HeaderLogo'
 
 const Footer = () => (
@@ -9,26 +9,7 @@ const Footer = () => (
   >
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <div>
-        <a
-          className="social-media-link"
-          target="_blank"
-          href="https://www.instagram.com/vem.pra.guerra/"
-          rel="noopener noreferrer"
-        >
-          <div
-            style={{
-              alignItems: 'center',
-              display: 'flex',
-              justifyContent: 'center',
-              marginBottom: 4,
-            }}
-          >
-            <div style={{ width: 32, height: 32 }}>
-              <Instagram />
-            </div>
-            <span className="social-media-text">Instagram</span>
-          </div>
-        </a>
+        <InstagramButton />
         <a
           className="social-media-link"
           href="https://www.facebook.com/vempraguerra-105616944418128/"

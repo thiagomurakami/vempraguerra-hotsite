@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import HeaderLogo from './images/HeaderLogo'
+import InstagramButton from './InstagramButton'
 
 const Header = () => {
   return (
@@ -14,6 +15,9 @@ const Header = () => {
           padding: '0px 1.0875rem 1.45rem',
           margin: '0px auto',
           maxWidth: 900,
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
         }}
       >
         <div style={{ width: 244, height: 72 }}>
@@ -25,6 +29,7 @@ const Header = () => {
             <HeaderLogo />
           </a>
         </div>
+        <InstagramButton />
       </div>
     </header>
   )

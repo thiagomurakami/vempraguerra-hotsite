@@ -1,9 +1,7 @@
 import React from 'react'
 
-import DonateButton from './DonateButton'
-
 const About = () => (
-  <section id="about">
+  <section id="about" style={{paddingTop: '1rem'}}>
     <h2>SOBRE O #VEMPRAGUERRA</h2>
     <div>
       <p>
@@ -19,8 +17,6 @@ const About = () => (
         contra o novo coronavírus através da arrecadação de fundos para a compra
         de materiais hospitalares, essenciais para essa nova demanda.
       </p>
-
-      <DonateButton />
 
       <h2>META</h2>
       <p>
@@ -45,8 +41,6 @@ const About = () => (
         doando diretamente aos que estarão na linha de frente!
       </p>
     </div>
-
-    <DonateButton />
 
     <div style={{ textAlign: 'center' }}>
       <iframe
