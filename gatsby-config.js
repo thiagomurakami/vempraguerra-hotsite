@@ -32,7 +32,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Roboto`,
+            family: `Montserrat`,
             subsets: [`latin`]
           },
         ],
