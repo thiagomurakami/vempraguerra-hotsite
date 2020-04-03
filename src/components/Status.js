@@ -1,35 +1,12 @@
 import React from 'react'
 
 import getDataFromSheets from '../utils/getDataFromSheets'
+import groupDecimal from '../utils/groupDecimal'
 
 import './Status.css'
 
 const totalDirectTransferUrl =
   'https://docs.google.com/spreadsheets/u/1/d/1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921/export?format=tsv&id=1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921&gid=505075659'
-
-function reverseString(str) {
-  return str
-    .split('')
-    .reverse()
-    .join('')
-}
-
-function groupDigital(num) {
-  const emptyStr = ''
-
-  const trimComma = str => str.replace(/^[,]+|[,]+$/g, emptyStr)
-
-  const str = num + emptyStr
-  const [integer, decimal] = str.split('.')
-
-  const conversed = reverseString(integer)
-
-  const grouped = trimComma(
-    reverseString(conversed.replace(/\d{3}/g, match => `${match},`)),
-  )
-
-  return !decimal ? grouped : `${grouped}.${decimal}`
-}
 
 const Status = () => {
   const [donationStatus, setDonation] = React.useState(null)
@@ -105,8 +82,8 @@ const Status = () => {
       <div className="status-container">
         <div className="status-item">
           <div className="status-text-container">
-            <h2>R$ {groupDigital(donationInfo.totalDonated)}</h2>
-            <p>de R$ {groupDigital(donationInfo.goal)}</p>
+            <h2>R$ {groupDecimal(donationInfo.totalDonated)}</h2>
+            <p>de R$ {groupDecimal(donationInfo.goal)}</p>
           </div>
           <svg
             className="status-svg"
@@ -139,7 +116,7 @@ const Status = () => {
         </div>
         <div className="total-donors-container">
           <p className="total-donors-main-text">
-            {groupDigital(donationInfo.totalDonors)}
+            {groupDecimal(donationInfo.totalDonors)}
           </p>
           <p style={{ color: '#979899' }}>doadores</p>
         </div>
