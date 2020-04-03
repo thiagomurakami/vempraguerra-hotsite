@@ -1,6 +1,11 @@
 import React from 'react'
 
+import getDataFromSheets from '../utils/getDataFromSheets'
+
 import './Status.css'
+
+const totalDirectTransferUrl =
+  'https://docs.google.com/spreadsheets/u/1/d/1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921/export?format=tsv&id=1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921&gid=505075659'
 
 function reverseString(str) {
   return str
@@ -28,6 +33,18 @@ function groupDigital(num) {
 
 const Status = () => {
   const [donationStatus, setDonation] = React.useState(null)
+  const [directTransferData, setDirectTransferData] = React.useState(0)
+
+  React.useEffect(() => {
+    getDataFromSheets(
+      totalDirectTransferUrl,
+      setDirectTransferData,
+      ([data]) => {
+        return Number(data[0])
+      },
+    )
+  }, [])
+
   React.useEffect(() => {
     async function getData() {
       try {
@@ -64,13 +81,32 @@ const Status = () => {
     getData()
   }, [])
 
+  const donationInfo = React.useMemo(() => {
+    if (donationStatus) {
+      const totalDonors = donationStatus.totalDonors
+      const totalDonated = isNaN(directTransferData)
+        ? donationStatus.totalDonated
+        : donationStatus.totalDonated + directTransferData
+      const goal = donationStatus.goal
+      const percentage = totalDonated / goal
+
+      return {
+        percentage,
+        totalDonors,
+        totalDonated,
+        goal,
+      }
+    }
+    return null
+  }, [directTransferData, donationStatus])
+
   return (
-    donationStatus && (
+    donationInfo && (
       <div className="status-container">
         <div className="status-item">
           <div className="status-text-container">
-            <h2>R$ {groupDigital(donationStatus.totalDonated)}</h2>
-            <p>de R$ {groupDigital(donationStatus.goal)}</p>
+            <h2>R$ {groupDigital(donationInfo.totalDonated)}</h2>
+            <p>de R$ {groupDigital(donationInfo.goal)}</p>
           </div>
           <svg
             className="status-svg"
@@ -94,7 +130,7 @@ const Status = () => {
                 cy="81"
                 cx="81"
                 strokeWidth="8"
-                strokeDashoffset={440 - donationStatus.percentage * 440}
+                strokeDashoffset={440 - donationInfo.percentage * 440}
                 stroke="#6fdb6f"
                 fill="none"
               />
@@ -103,7 +139,7 @@ const Status = () => {
         </div>
         <div className="total-donors-container">
           <p className="total-donors-main-text">
-            {groupDigital(donationStatus.totalDonors)}
+            {groupDigital(donationInfo.totalDonors)}
           </p>
           <p style={{ color: '#979899' }}>doadores</p>
         </div>
