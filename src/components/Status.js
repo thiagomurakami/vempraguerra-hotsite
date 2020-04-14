@@ -33,14 +33,26 @@ function groupDigital(num) {
 
 const Status = () => {
   const [donationStatus, setDonation] = React.useState(null)
-  const [directTransferData, setDirectTransferData] = React.useState(0)
+  const [
+    { directTransferData, directTransferDonors },
+    setDirectTransferData,
+  ] = React.useState({ directTransferData: 0, directTransferDonors: 0 })
 
   React.useEffect(() => {
     getDataFromSheets(
       totalDirectTransferUrl,
       setDirectTransferData,
       ([data]) => {
-        return Number(data[0])
+        const newDirectTransferValue = Number(data[0])
+        const newDirectTransferDonors = Number(data[1])
+        return {
+          directTransferData: !isNaN(newDirectTransferValue)
+            ? newDirectTransferValue
+            : 0,
+          directTransferDonors: !isNaN(newDirectTransferDonors)
+            ? newDirectTransferDonors
+            : 0,
+        }
       },
     )
   }, [])
@@ -83,7 +95,7 @@ const Status = () => {
 
   const donationInfo = React.useMemo(() => {
     if (donationStatus) {
-      const totalDonors = donationStatus.totalDonors
+      const totalDonors = donationStatus.totalDonors + directTransferDonors
       const totalDonated = isNaN(directTransferData)
         ? donationStatus.totalDonated
         : donationStatus.totalDonated + directTransferData
@@ -98,7 +110,7 @@ const Status = () => {
       }
     }
     return null
-  }, [directTransferData, donationStatus])
+  }, [directTransferData, directTransferDonors, donationStatus])
 
   return (
     donationInfo && (
