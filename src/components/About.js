@@ -1,7 +1,29 @@
 import React from 'react'
 
 const About = () => (
-  <section id="about" style={{paddingTop: '1rem'}}>
+  <section id="about" style={{ paddingTop: '1rem' }}>
+    <h2>CAMPANHA ENCERRADA</h2>
+
+    <p>
+      A arrecadação do Movimento <b>#VemPraGuerra</b>, campanha em apoio ao Hospital
+      das Clínicas da USP, encerrou nessa sexta feira (17/04). Em breve,
+      informaremos os resultados oficiais em todas as nossas plataformas.
+    </p>
+
+    <p>Agradecemos o apoio e todas as doações!</p>
+
+    <p>
+      O Hospital das Clínicas segue captando em sua plataforma oficial de
+      doações. Acesso, apoie, divulgue:{' '}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://viralcure.org/hc"
+      >
+        viralcure.org/hc
+      </a>.
+    </p>
+
     <h2>SOBRE O #VEMPRAGUERRA</h2>
     <div>
       <p>

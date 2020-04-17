@@ -2,7 +2,6 @@ import React from 'react'
 
 import About from '../components/About'
 import Banner from '../components/images/Banner'
-import DonateButton from '../components/DonateButton'
 import Faq from '../components/Faq'
 import Header from '../components/Header'
 import Layout from '../components/Layout'
@@ -17,13 +16,7 @@ const IndexPage = () => (
     <Header />
     <SEO title="#VemPraGuerra" />
     <div style={{ position: 'relative' }}>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.charidy.com/vempraguerra"
-      >
-        <Banner />
-      </a>
+      <Banner />
     </div>
     <Layout>
       <Status />
@@ -32,7 +25,6 @@ const IndexPage = () => (
       <Faq />
       <RelevantData />
       <Team />
-      <DonateButton />
     </Layout>
   </>
 )
