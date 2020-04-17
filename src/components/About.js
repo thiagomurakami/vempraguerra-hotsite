@@ -2,15 +2,15 @@ import React from 'react'
 
 const About = () => (
   <section id="about" style={{ paddingTop: '1rem' }}>
-    <h2>CAMPANHA ENCERRADA</h2>
+    <h2>ARRECADAÇÃO ENCERRADA</h2>
 
     <p>
-      A arrecadação do Movimento <b>#VemPraGuerra</b>, campanha em apoio ao Hospital
-      das Clínicas da USP, encerrou nessa sexta feira (17/04). Em breve,
-      informaremos os resultados oficiais em todas as nossas plataformas.
+      O movimento em prol da saúde <b>VemPraGuerra</b> encerrou nessa sexta
+      feira, (17/04), a campanha de arrecadação em apoio ao Hospital das
+      Clínicas da USP.
     </p>
 
-    <p>Agradecemos o apoio e todas as doações!</p>
+    <p>Os resultados oficiais das doações Pessoa Física e Pessoa Jurídica serão contabilizados e informados em todas nossas plataformas.</p>
 
     <p>
       O Hospital das Clínicas segue captando em sua plataforma oficial de
@@ -21,8 +21,11 @@ const About = () => (
         href="https://viralcure.org/hc"
       >
         viralcure.org/hc
-      </a>.
+      </a>
+      .
     </p>
+
+    <p>Agradecemos o apoio!</p>
 
     <h2>SOBRE O #VEMPRAGUERRA</h2>
     <div>

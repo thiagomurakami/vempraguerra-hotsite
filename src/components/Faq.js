@@ -23,42 +23,42 @@ const faq = [
     answer:
       <p>O dinheiro das doações irá diretamente para uma conta designada especificamente para a Fundação Faculdade de Medicina, uma das entidades responsáveis pelo financiamento do complexo do Hospital das Clínicas. O responsável pelo gerenciamento da conta será o Coordenador do Núcleo Econômico Financeiro do HC, que repassará a verba para a compra dos materiais abaixo citados. A Fundação Faculdade de Medicina (FFM) é uma entidade privada, sem fins lucrativos, reconhecida por seu caráter filantrópico, criada em 1986 pelos antigos alunos da Faculdade de Medicina da USP (FMUSP) para atuar na promoção do ensino, pesquisa e assistência em saúde e apoiar as atividades da Faculdade e do Hospital.</p>,
   },
-  {
-    question: 'Existe outra forma de doação que não seja o cartão de crédito?',
-    answer: (
-      <>
-        Sim! É possível fazer a doação através de depósito/transferência pela
-        conta oficial da Fundação Faculdade de Medicina (FFM):
-        <ul style={{ listStyleType: 'none', marginLeft: 0, marginTop: '1rem' }}>
-          <li>
-            <b>Nome:</b> Fundação Faculdade de Medicina - FFM
-          </li>
-          <li>
-            <b>Endereço:</b> Avenida Rebouças, 381
-          </li>
-          <li>
-            <b>CEP:</b> 05401-000
-          </li>
-          <li>
-            <b>CNPJ:</b> 56577059/0001-00
-          </li>
-          <li>
-            <b>Banco:</b> Santander
-          </li>
-          <li>
-            <b>Agência:</b> 0201
-          </li>
-          <li>
-            <b>Conta corrente:</b> 13.003244-4
-          </li>
-        </ul>
-        <span style={{ whiteSpace: 'pre-line' }}>
-          Após realizar a doação, por favor, MANDAR O COMPROVANTE para{' '}
-          <b>charidy.hc@gmail.com</b>.
-        </span>
-      </>
-    ),
-  },
+  // {
+  //   question: 'Existe outra forma de doação que não seja o cartão de crédito?',
+  //   answer: (
+  //     <>
+  //       Sim! É possível fazer a doação através de depósito/transferência pela
+  //       conta oficial da Fundação Faculdade de Medicina (FFM):
+  //       <ul style={{ listStyleType: 'none', marginLeft: 0, marginTop: '1rem' }}>
+  //         <li>
+  //           <b>Nome:</b> Fundação Faculdade de Medicina - FFM
+  //         </li>
+  //         <li>
+  //           <b>Endereço:</b> Avenida Rebouças, 381
+  //         </li>
+  //         <li>
+  //           <b>CEP:</b> 05401-000
+  //         </li>
+  //         <li>
+  //           <b>CNPJ:</b> 56577059/0001-00
+  //         </li>
+  //         <li>
+  //           <b>Banco:</b> Santander
+  //         </li>
+  //         <li>
+  //           <b>Agência:</b> 0201
+  //         </li>
+  //         <li>
+  //           <b>Conta corrente:</b> 13.003244-4
+  //         </li>
+  //       </ul>
+  //       <span style={{ whiteSpace: 'pre-line' }}>
+  //         Após realizar a doação, por favor, MANDAR O COMPROVANTE para{' '}
+  //         <b>charidy.hc@gmail.com</b>.
+  //       </span>
+  //     </>
+  //   ),
+  // },
   {
     question: 'Por que 10 milhões de reais?',
     answer:
