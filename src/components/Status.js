@@ -1,11 +1,22 @@
 import React from 'react'
 
-import getDataFromSheets from '../utils/getDataFromSheets'
-
 import './Status.css'
 
-const totalDirectTransferUrl =
-  'https://docs.google.com/spreadsheets/u/1/d/1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921/export?format=tsv&id=1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921&gid=505075659'
+const totalDirectTransferUrl = 'https://docs.google.com/spreadsheets/d/1AJ3FE3lxgUgvsZfPqoefSdvWOQC63921/gviz/tq?tqx=out:tsv&sheet=Total%20-%20n%C3%A3o%20apagar'
+
+const getDataFromSheets = async (url, setState, dataTransformer) => {
+  try {
+    const response = await fetch(url)
+    const stringData = await response.text()
+    const modifiedStringData = stringData.split('\n')[1].replace('google.visualization.Query.setResponse(', '')
+    const responseParsedData = JSON.parse(modifiedStringData.substring(0, modifiedStringData.length - 2))
+    const arrayData = responseParsedData.table.rows[0].c.map(({f}) => f)
+
+    setState(dataTransformer([arrayData]))
+  } catch (e) {
+    console.error(e)
+  }
+}
 
 function reverseString(str) {
   return str
