@@ -21,6 +21,7 @@ const Team = () => {
         <li>Alexandre Vasserman</li>
         <li>Ayumi Tomishige</li>
         <li>Bruno Montico Costa</li>
+        <li>Bruno Sanovicz</li>
         <li>Caio Fernandes Alfieri</li>
         <li>Dan Novachi</li>
         <li>Eduardo Mitelman</li>
